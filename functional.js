@@ -15,9 +15,8 @@
 
 
 
-var victim = {};
-
 function getVictimInfo() {
+ var victim = {};
  victim.name = prompt("Please enter your name:");
  victim.phone = prompt("Please enter your phone number:");
  victim.street = prompt("Please enter your street:");
@@ -25,10 +24,10 @@ function getVictimInfo() {
 };
 
 function output(name,phone,street) {
-	alert('Thank you! Victim entered: \n' + 
- 	name + ", " + 
- 	phone + ", " + 
- 	street);
+  alert('Thank you! Victim entered: \n' + 
+  name + ", " + 
+  phone + ", " + 
+  street);
 }
 
 
